@@ -1,12 +1,13 @@
 import React from "react";
+import { Button } from "@radix-ui/themes";
+import Link from "next/link";
 
 const IssuesPage = () => {
   return (
     <div>
-      IssuesPage, Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-      fugiat dolorum ex accusamus dolorem reiciendis ullam deleniti a. Harum
-      illo praesentium, eveniet doloremque eligendi facere animi reprehenderit
-      ab veniam non?
+      <Button>
+        <Link href="/issues/new">New thing!</Link>
+      </Button>
     </div>
   );
 };
